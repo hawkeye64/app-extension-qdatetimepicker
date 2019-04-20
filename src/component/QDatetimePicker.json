@@ -158,6 +158,11 @@
     "time-options": {
       "type": "Function",
       "desc": "Optionally configure what time the user allowed to set"
+    },
+    "default-standard": {
+      "type": "String",
+      "desc": "Serialization standard, the property will be ignored if value isn't null ('iso', 'quasar') (eg.: 'iso': 'yyyy-MM-ddTHH:mm', 'quasar': 'yyyy/MM/dd HH:mm') (default: 'iso')",
+      "default": "iso"
     }
   }
 }
